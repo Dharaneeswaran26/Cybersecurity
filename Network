@@ -1,1 +1,40 @@
-cyber
+vulnerability (weakness)
+
+tools - hashcat (bruteforce) - password cracking tool(hacking others system)
+
+RAT - remote access trojans
+
+securing data and resources(Cybersecurity)
+
+safeguard datas and resources (cybersecurity)
+
+logical,physical,administrative controls in cybersecurity
+
+port and scanning
+
+tcp and udp protocols - set of rules
+
+tcp ports - 65535 + udp ports - 65535
+
+https (ex- github) port-443 (secured)
+http 80 (unsecured)
+
+diff between http and https
+blockchain
+exploit
+sql injection
+session hijacking
+phishing
+dns
+ip address
+cloud
+cryptography
+arp poisoning
+spoofing
+hashing
+meta spoit
+back door
+
+hacking - gaining unauthorised access
+ethical hacking - gaining unauthorised access with written permission
+web page(single page),web site(static page),web application(user interaction) and web server(running in computer)
