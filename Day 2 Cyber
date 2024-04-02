@@ -1,0 +1,9 @@
+checking the ping (any websites ex- google.com)
+  cmd -  ping google.com -n  4
+
+  cisco packest tracer
+  [
+  *same type of devices are connected is cross over
+  *different type of devices are straight too
+  ]
+  two routers are connected
