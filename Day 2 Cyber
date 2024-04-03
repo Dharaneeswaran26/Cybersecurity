@@ -8,4 +8,4 @@ checking the ping (any websites ex- google.com)
   ]
   two routers are connected
 
-tracert -for finding the number of roures in the network
+tracert -for finding the number of routes in the network
