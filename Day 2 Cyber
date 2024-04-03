@@ -7,3 +7,5 @@ checking the ping (any websites ex- google.com)
   *different type of devices are straight too
   ]
   two routers are connected
+
+tracert -for finding the number of roures in the network
