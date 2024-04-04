@@ -1,5 +1,11 @@
 ls , cat , cd ,pwd is not used in command prompt only in linux and powershell
 
   there are 73 commmands in the linux
-  
-  
+
+3 way handshake
+send
+acknowledge
+received
+
+tls (transport layer security)
+ key exchange  -public key to private and private to public
