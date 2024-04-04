@@ -9,3 +9,18 @@ received
 
 tls (transport layer security)
  key exchange  -public key to private and private to public
+
+Get-FileHash ./    -for checking the hash value for the file
+
+anti virus - checking the hash values
+
+virustotal.com  -checking the files integrity
+
+difference between hashing and encryption
+
+hashing is one way. it can not be reversable
+hashing has unique values
+hashing can be checked by the length of the values
+
+rockyou.txt (github) -website for common password cracking - known as dictionary attack
+broute force attack is password cracking attack
