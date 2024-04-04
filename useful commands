@@ -27,4 +27,17 @@ lo (network interface)
 wlan0 (wireless lan 0)
 tun0 (tunnel 0)
 
-proxy and vpn 
+proxy and vpn
+[
+vpn provides encryption between the client and server
+
+----------vpn---------
+client <------> server
+----------vpn---------
+encryption -clear text -> cipher text
+decryption -cipher text -> clear text
+
+symmetric encrypt - single key
+asymmetric encrypt - two keys( public key and private key) broke the single key to two keys(both public and private)
+]
+proxy does not encrypt the data
