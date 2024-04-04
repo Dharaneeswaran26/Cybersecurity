@@ -8,7 +8,7 @@ echo
 
 mkdir - to create directory
 
-python -n http server 80  -to  create the temporary server
+ python -m http.server 80  -to  create the temporary server
 
 soc analyst (service operation center)
 
