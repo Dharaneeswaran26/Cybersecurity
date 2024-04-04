@@ -15,3 +15,16 @@ soc analyst (service operation center)
 echo "cyber"> security  - to create the folder in the system
 
 cat security -to show the folder
+
+NAT(network address translation) - to prevent from hacking
+
+ip a -for linux ip address
+
+translate public to private network (NAT)
+
+eth0 (ethernet 0)
+lo (network interface)
+wlan0 (wireless lan 0)
+tun0 (tunnel 0)
+
+proxy and vpn 
