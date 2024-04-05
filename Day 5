@@ -1,0 +1,32 @@
+wireshark is mostly used in the checking process
+
+ client Request ------->server Response ---> DB
+  HTTP methods           Response Code
+  EX:
+  GET                     1xx - Informational messages
+  POST                    2xx - OK
+  PUT                     3xx - Redirection
+  OPTIONS                 4xx - client-side error
+  DELETE                  5xx - server-side error
+                 Response code
+  
+  testing types
+  *functional testing
+  *non-functional testing
+  
+  security testing
+  
+  *production environment - live websites/web app
+  *staging environment p- actual copy of production
+  *QA environment - test build
+
+  brup suite:
+  Client --->Burp Proxy ----> Server
+    good for web developers and testers
+
+  user agent -> browser
+    
+    foxyproxy -extension for proxy browser
+
+    Dark web:
+client ---> Proxy1 ----> Proxy2 ----> proxy3 -----> proxy4 -----> proxy5 -----> proxy6 ----> Server
