@@ -47,3 +47,15 @@ cat /etc/apt/sources.list
  add s to the http -->https
 ctrl + O and enter to save the file
 ctrl + X to Exit
+
+URL and URI :
+web protocol  --> http/https
+TLD
+Domain --> example.com
+sub domain -->maps.example.com , mail.example.com
+
+ls -l /var/www/html/  --> for finding the rrot element
+linux basic path --> /var/www/html
+windows --> C:\inetpub\wwwroot
+
+WAP --> web application firewall + rate limiting
