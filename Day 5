@@ -30,3 +30,20 @@ wireshark is mostly used in the checking process
 
     Dark web:
 client ---> Proxy1 ----> Proxy2 ----> proxy3 -----> proxy4 -----> proxy5 -----> proxy6 ----> Server
+
+command for kali
+
+sudo nmcli networking on
+asks password : kali
+sudo service NetworkManager start
+both commands are used to check the internet connection
+sudo - super user
+
+ctrl + Shift + C --> for copy
+ctrl + Shift + v --> for paste
+
+sudo nano /etc/apt/sources.list
+cat /etc/apt/sources.list
+ add s to the http -->https
+ctrl + O and enter to save the file
+ctrl + X to Exit
