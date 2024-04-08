@@ -1,0 +1,14 @@
+To convert the url to base 64 ---> cyber chef (website) use base 64 option
+never use cyber chef to kali linux (uses more memory)
+
+book.hacktricks.xyz ----> bible for hackers
+hacking tricks for hackers
+
+penetration testing > vulnerability testing
+
+cat /etc/passwd | grep /bin/bash ---> checking the users in system
+
+mkdir MKCE && cd  MKCE && touch test -----> to create directory in kali
+ll ---> to check the directory
+
+
