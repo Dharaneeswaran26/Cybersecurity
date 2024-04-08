@@ -1,0 +1,63 @@
+Cyber Security Terms(most important terms)
+1. Policy(Set of rules)
+2. Procedure(Step to follow the rules)
+3. Standard(a Set of procedure)
+4. Regulation(it is only given by Government)
+  
+Vulnerability Assessment (VA)
+  process of identifying,quantifying,and prioritizing vulnerability within a system,network,application,or organizations
+  it reviews the potential weakness which an attacker used to comprimise the CIA(confidentiality integrity availability)
+
+VA process
+Asset discovery---------->Vulnerability scanning----------->Vulnerability assessment ------------->Vulnerability remediation
+
+Vulnerability Metrics (Vulnerability scores)
+   National vulnerability databases - this websiter will tell us how to gives the rating or score(CVSS score)
+   CVSS-Common Vulnerability Scoring System
+
+Vulnerability Scanner(VS)
+Types
+1. Automated VS types
+  1. Database VS
+  2. Network VS
+  3. Web Application VS
+  4. Host-based VS
+  5. API VS
+  6. Cloud based VS
+2. Manual VS
+
+
+Vulnerability Assessment methods
+1.VS
+2.Penetration Testing
+3.Risk Assessment 
+4.Code reviews
+5.Configuration Management
+6.Patch management
+7.Security assessment
+
+
+Five phases of Hacking
+1.Information gathering
+2.Scanning(scan the information we gathered)
+3.Gaining Access
+4.Maintaining Access(persistence)
+5.Clearing Tracks
+
+
+Penetration Testing(an authorized attack on a device to identify security vulnerabilities that could be hacked)
+process
+Information Gathering------>Threat modeling------>Vulnerability analysis------->Exploitation ------>Post exploitation ----->Reporting
+Types
+1.Internal PT(there are some scope and rules to be followed)
+2.External PT(they only give us the information and said to identify the vulnerability)
+
+
+SAST- without deploying a code(
+DAST- we use code (burpsuite)
+
+OWASP Vulnerability
+1.Sql Injection
+2.Authentication vulnerability
+3.Path Traversal/Directory Traversal
+4.OS Command Injection
