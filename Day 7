@@ -11,4 +11,9 @@ cat /etc/passwd | grep /bin/bash ---> checking the users in system
 mkdir MKCE && cd  MKCE && touch test -----> to create directory in kali
 ll ---> to check the directory
 
+concepts to remember (shells) :
+web shell ----> browser
+bind shell ----> process/service/port combine
+reverse shell ----> user interaction
 
+revshell.com ---->access the system by clicking the link provided in the website
