@@ -36,4 +36,16 @@ to download ---> copy the 64-bit version and paste it in command prompt(academy)
 dpkg -i splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb --->change based on given address
 chown -R splunkfwd:splunkfwd $SPLUNK_HOME
 $SPLUNK_HOME/bin/splunk start --accept-license
+cd /opt/splunkforwarder/bin/
+it shows --->/opt/splunkforwarder/bin# ---> ./splunk status
+./splunk add forward-server 172.1.42.46(:9997) --->default port
+./splunk add forward-server 172.1.42.46:9997
+enter previous asked username and password
+ping ip address(172.1.42.46) ---> for academy running
+if not installed properly:
+./splunk add forward-server 172.1.42.46:9997
+./splunk list forward-server
+if inactive :
+./splunk remove forward-server
+./splunk restart
 for installing splunk
