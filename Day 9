@@ -32,3 +32,8 @@ mkdir $SPLUNK_HOME
 go to ---> splunk forwarder download(website) :
 to  check the version of the splunk in academy linux using ---> uname -a
 to download ---> copy the 64-bit version and paste it in command prompt(academy)
+
+dpkg -i splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb --->change based on given address
+chown -R splunkfwd:splunkfwd $SPLUNK_HOME
+$SPLUNK_HOME/bin/splunk start --accept-license
+for installing splunk
