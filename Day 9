@@ -1,0 +1,34 @@
+To install vpn
+download tyhackme file
+run command:
+
+cd Desktop
+sudo openvpn tryhackme.ovpn
+takes some time
+ -----------
+or
+download academy.zip file
+download and install splunk enterprise free version
+ip link set dev ens33 up
+dhclient -v ens33
+ip a
+
+SIEM(security inforamtion and event management) tool  ----> for defense
+splunk forwarder --->to connent with the servers (complex task)
+not able to copy,paste
+
+service ssh status ----> to check the active status of ssh(in academy linux)
+ssh root@192.168.181.129 ---> in commmand prompt
+then -->enter passord --> tcm
+uname -a
+whoami
+useradd -m splunkfwd
+groupadd splunk
+then go to splunk forwarder install for linux:
+
+export SPLUNK_HOME="/opt/splunkforwarder"
+mkdir $SPLUNK_HOME
+
+go to ---> splunk forwarder download(website) :
+to  check the version of the splunk in academy linux using ---> uname -a
+to download ---> copy the 64-bit version and paste it in command prompt(academy)
