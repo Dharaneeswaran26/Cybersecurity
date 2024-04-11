@@ -1,0 +1,11 @@
+check the splunk enterprise --->academy with data graphs---> enterprise is running
+go to windows defender firewall ---> inbound --> new rule --->port --->tcp ---> 9997 ---> finish
+go to windows defender firewall ---> inbound --> new rule --->port --->udp ---> 9997 ---> finish
+
+go to kali ---> terminal ---> sudo netdiscover (with ip address and subnet mask ex--> 192.168.181.254/16)
+  create or go to any directory --->cd mkce
+  create file within it ----> nano ipaddress.txt
+  save the ip address in the file
+  to open the file ----> cat ipadddress.txt
+  it shows the resources within the file
+  to filter the ip address:
