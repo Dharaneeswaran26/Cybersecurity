@@ -16,7 +16,8 @@ nmap -sn 192.168.181.128/24 ---> use this command
 nmap 192.168.181.128 -p1-65535 -min-rate=3000 -v -pn
 to check the port connected to the server :
 [
-udo netdiscover -r 192.168.243.0/2
+sudo netdiscover -r 192.168.243.0/2
 export target=192.168.243.0
-nmap $target  -p1-65535 --min-rate=3000
+nmap $target  -p1-65535 -min-rate=3000
 nmap $target  -p1-65535 -v -min-rate=3000 -oN open_ports.txt
+]
