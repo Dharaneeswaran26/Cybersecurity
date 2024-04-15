@@ -1,0 +1,18 @@
+Cisco WSA feature
+WSA-(secure web appliance)
+
+sso authentication - sso(Single Sign on) like microsoft uses authenticator to verify live generator password
+
+Cloud service mode
+1. Saas - Software as a service
+2. Paas - Platform as a service
+3. Iaas - Infrastructure as a service
+
+How cloud works?
+Data storage--------->Access anywhere--------->Virtualization------->Scalability----------->Cost Effective 
+
+Risk Management
+1. Acceptance
+2. Mitigation
+3. Avoidance
+4. Transfer
