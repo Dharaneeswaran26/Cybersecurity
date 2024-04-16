@@ -1,0 +1,19 @@
+Regulations in cloud security:
+GDPR - General data production regulation
+HIPAA - Health insurance portability and accountability act
+PCIDSS - Payment card industry data security standards
+ISO 27001(ISMS policy) - Information security management systems
+ISO 27002
+
+charactistics of maturity level:
+1--> initial
+2 --> managed
+3 --> defined
+4 --> quantitatively managed
+5 --> optimizing
+
+DAC --> decretionary access control --> Gives more access
+RBAC --> role based access control --> limited access
+MAC --> mandatory access control --> limited access
+
+WAF-->Web application firewall
