@@ -1,0 +1,44 @@
+interview que - where sys volume store? windows -> c volume
+download - windows server 2019 
+    entire copy of disk - iso image
+install iso image
+installer disk image(iso) - file upload - next
+standard core - name - password (Agalmeow6)
+location change  - to d drive  - fiinish
+setup start in vm
+create new virtual machine idhalam varm - shhows an error
+4 windows - standard evaluation (data experience)
+shut down vm - open vm - edit vm - floppy - disable connect at power on - play vm
+page will open - give next - install now - shows setup is starting
+same page will open - 4 windows - standard evaluation (data experience) - give next
+agreement - accept and next
+custom windows - shows unallocated page - new - apply - give ok 
+60 gb - part into 4 - has one primary - ok - installation started
+once windows open - server manager - add roles and features -(to add domain controller) - dashboard, local server, all server, files and storage services (idhu matum irundha dc ila)
+security page will appear
+role based - next
+server - endha machine open pandromo andha server ip kamikum - next
+roles - select ad domain services, dns server - give add features for each - next
+next - next 
+give restart the destination server automatically - install 
+AD DS and DNS - box mari green color will show ( means correct installation)
+top - exclamation mark show - promote this server into dc click 
+choose domain name - root domain name - Punks(nama thara name) - add a new forest - next - shows verification of forest name is failed - lowercase -eg. punks.local - next
+Asking functional level of forest - default windows server 2016 - as it is - type password - next
+DNS options - Create DNS delegation - next ........... install
+terms and condition will show - install - system will restart automatically
+if the installation is correct - it shows - PUNKS/Administrator
+
+
+windows defender firewall - inbound - icmp enable
+
+To add system to dc - control panel -> system and security -> system -> computer domain...... -> change setting -> change -> member -> domain ->
+
+error: show coz cant reach the dc ip 
+edit host file: cmd prompt -> run as administrator -> cd /Windows/System32/drivers/etc
+notepad hosts -> enter --> add dc ip and its file name
+
+dc: active directory users and computers -> create user and give password.
+
+control panel -> system and security -> network and sharing center -> ethernet -> properties -> install ipv4(double tap, dc ip) restart
+home page--> shows administrator and other
